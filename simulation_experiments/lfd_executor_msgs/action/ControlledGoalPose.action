@@ -1,0 +1,9 @@
+geometry_msgs/TransformStamped transformation
+string noise_type
+float64 noise_level
+float64 noise_rate
+string noise_dimension
+---
+bool shut_down
+---
+geometry_msgs/TwistStamped current_transformation

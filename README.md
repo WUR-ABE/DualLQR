@@ -1,29 +1,27 @@
-# Robot harvester: works perfect
-![robot](assets/example.jpg "robot")
-> **Robot harvester: works perfect**\
-> Me Myself, Some Supervisor, Some Other Person
-> Paper: https://todo.nl
+# DualLQR: Efficient Grasping of Oscillating Apples using Task Parameterized Learning from Demonstration
+![rt_loop](assets/reactive_control_rt_loop_robot.png "Real-time control loop of DualLQR")
+> **DualLQR: Efficient Grasping of Oscillating Apples using Task Parameterized Learning from Demonstration**\
+> Robert van de Ven, Ard Nieuwenhuizen, Eldert J. van Henten, and Gert Kootstra\
+> Paper: https://arxiv.org/abs/2409.16957
 
 ## About
-Official implementation of the paper 'Robot harvester: perfect harvesting of fruits'. This software is perfect in harvesting fruits. 
-
-## Installation
-Describe here how to install your software (if relevant). Which Python version does it require? Which dependencies do you have to install, e.g.:
-
-This software is tested on Python 3.10. To install the dependencies, run:
-```
-pip3 install -r requirements.txt
-```
+Official implementation of the paper 'DualLQR: Efficient Grasping of Oscillating Apples using Task Parameterized Learning from Demonstration'. Work submitted to ICRA 2025.
+This repository contains the code of the DualLQR, code for testing, and code for analysis. 
 
 ## Usage
-Describe how to run your code, e.g.:
-
-To start training on your custom dataset:
-```
-python3 train.py <<path_to_custom_dataset>>
-```
+The folder ``simulation_experiments`` contains the scripts used to perform the simulation experiments. \
+The folder ``apple_grasping_experiments`` contains the scripts used to perform the apple grasping experiments. It does not include the hand-eye calibration of the OptiTrack system. \
+The folder ``analysis_experiments`` contains the scripts used to analyze both experiments, containing sub-folders for each experiment. 
 
 ## Citation
 ```
-<<ADD CITATION IN BIBTEX FORMAT>>
+@misc{vandeven2024duallqrefficientgraspingoscillating,
+      title={DualLQR: Efficient Grasping of Oscillating Apples using Task Parameterized Learning from Demonstration}, 
+      author={Robert van de Ven and Ard Nieuwenhuizen and Eldert J. van Henten and Gert Kootstra},
+      year={2024},
+      eprint={2409.16957},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2409.16957}, 
+}
 ```

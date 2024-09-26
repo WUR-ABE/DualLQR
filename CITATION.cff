@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: If you use this software, please cite both the article from preferred-citation and the software itself.
+authors:
+  - family-names: van de Ven
+    given-names: Robert
+    orcid: 'https://orcid.org/0009-0005-6483-6231'
+  - family-names: Nieuwenhuizen
+    given-names: Ard
+    orcid: 'https://orcid.org/0000-0002-8525-8558'
+  - family-names: van Henten
+    given-names: Eldert J.
+    orcid: 'https://orcid.org/0000-0002-1623-9855'
+  - family-names: Kootstra
+    given-names: Gert
+    orcid: 'https://orcid.org/0000-0002-2579-4324'
+title: 'DualLQR: Efficient Grasping of Oscillating Apples using Task Parameterized Learning from Demonstration'
+version: 1.0.0
+url: https://arxiv.org/abs/2409.16957
+date-released: '2024-09-26'
+preferred-citation:
+  authors:
+    - family-names: van de Ven
+      given-names: Robert
+      orcid: 'https://orcid.org/0009-0005-6483-6231'
+    - family-names: Nieuwenhuizen
+      given-names: Ard
+      orcid: 'https://orcid.org/0000-0002-8525-8558'
+    - family-names: van Henten
+      given-names: Eldert J.
+      orcid: 'https://orcid.org/0000-0002-1623-9855'
+    - family-names: Kootstra
+      given-names: Gert
+      orcid: 'https://orcid.org/0000-0002-2579-4324'
+  title: 'DualLQR: Efficient Grasping of Oscillating Apples using Task Parameterized Learning from Demonstration'
+  url: https://arxiv.org/abs/2409.16957
+  type: generic
+  year: '2024'
+  conference: {}
+  publisher: {}

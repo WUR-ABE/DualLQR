@@ -1,0 +1,6 @@
+string model_name
+int32 horizon
+geometry_msgs/Pose init_pose
+geometry_msgs/Pose end_pose
+---
+geometry_msgs/Pose[] trajectory

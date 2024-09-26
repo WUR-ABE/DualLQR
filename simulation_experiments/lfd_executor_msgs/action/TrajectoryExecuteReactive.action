@@ -1,0 +1,6 @@
+string model_name
+float64 reg_factor
+---
+std_msgs/Float64MultiArray performed_path
+---
+geometry_msgs/TwistStamped current_target

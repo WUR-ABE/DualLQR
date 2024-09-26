@@ -1,0 +1,5 @@
+geometry_msgs/TransformStamped transformation
+---
+bool shut_down
+---
+geometry_msgs/TwistStamped current_transformation

@@ -2,7 +2,8 @@
 ![rt_loop](assets/reactive_control_rt_loop_robot.png "Real-time control loop of DualLQR")
 > **DualLQR: Efficient Grasping of Oscillating Apples using Task Parameterized Learning from Demonstration**\
 > Robert van de Ven, Ard Nieuwenhuizen, Eldert J. van Henten, and Gert Kootstra\
-> Paper: https://arxiv.org/abs/2409.16957
+> Paper: https://arxiv.org/abs/2409.16957 \
+> Video: https://youtu.be/2bY84MN53tA
 
 ## About
 Official implementation of the paper 'DualLQR: Efficient Grasping of Oscillating Apples using Task Parameterized Learning from Demonstration'. Work submitted to ICRA 2025.
